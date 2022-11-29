@@ -45,7 +45,7 @@ const Profile = () => {
           <div className="img-container">
             <img src={Angel} className="team__img" alt="" />
           </div>
-          <h3>Stella</h3>
+          <h3>Angel</h3>
           <p>Coach</p>
           <div className="icon">
             <a href="#">
@@ -74,7 +74,7 @@ const Profile = () => {
           <div className="img-container">
             <img src={Yuni} className="team__img" alt="" />
           </div>
-          <h3>Stella</h3>
+          <h3>Yuni</h3>
           <p>Coach</p>
           <div className="icon">
             <a href="#">
@@ -103,7 +103,7 @@ const Profile = () => {
           <div className="img-container">
             <img src={Vheli} className="team__img" alt="" />
           </div>
-          <h3>Stella</h3>
+          <h3>Vheli</h3>
           <p>Coach</p>
           <div className="icon">
             <a href="#">
@@ -132,7 +132,7 @@ const Profile = () => {
           <div className="img-container">
             <img src={Nola} className="team__img" alt="" />
           </div>
-          <h3>Stella</h3>
+          <h3>Nola</h3>
           <p>Coach</p>
           <div className="icon">
             <a href="#">
@@ -161,7 +161,7 @@ const Profile = () => {
           <div className="img-container">
             <img src={Grace} className="team__img" alt="" />
           </div>
-          <h3>Stella</h3>
+          <h3>Grace</h3>
           <p>Coach</p>
           <div className="icon">
             <a href="#">
@@ -183,6 +183,35 @@ const Profile = () => {
         </div>
       </div>
       {/* end-profile 5 */}
+
+      {/* profile 6 */}
+      <div className="column">
+        <div className="card">
+          <div className="img-container">
+            <img src={Grace} className="team__img" alt="" />
+          </div>
+          <h3>Krisna Natalia</h3>
+          <p>Coach</p>
+          <div className="icon">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* end-profile 6 */}
     </>
   );
 };

@@ -89,14 +89,20 @@
         bottom: 0;
     }
 
+    .nav__link{
+        color: var(--title-color-dark);
+    }
+
     .nav__list{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+        
     }
 
     .nav__icon{
         font-size: 1.2rem;
+        color: var(--title-color-dark);
     }
 
     .nav__close{
@@ -120,6 +126,12 @@
     .nav__icon, .nav__close, .nav__toggle{
         display: block;
     }
+
+    .logo__img{
+        width: 35px;
+        height: 35px;
+
+    }
   }
 
   /* For Small Devices  */
@@ -130,5 +142,6 @@
 
   .nav__list{
     column-gap: 0;
+    
   }
 }

@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Team from './components/team/Team';
 import Contact from './components/contact/Contact';
+import ScrollTop from './components/scrollTop/ScrollTop';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Team />
       <Contact />
     </main>
+
+    <ScrollTop />
     </>
   );
 }

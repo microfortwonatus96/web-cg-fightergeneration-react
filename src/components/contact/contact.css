@@ -1,0 +1,128 @@
+.contact{
+    position: relative;
+    min-height: 100vh;
+    background: url(../../assets/contact-us/bg-contact.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .contact__desc{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.contact .contact__container{
+    /* max-width: 800px ; */
+    text-align: center;
+}
+
+.contact__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* gap: 15rem; */
+}
+
+.contact__container .contact__info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__container .contact__info .contact__box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.contact__container .contact__info .contact__box .contact__icon{
+    min-width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contact__container .contact__info .contact__box .contact__input-text{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    font-size: 1rem;
+    flex-direction: column;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contact__container .contact__info .contact__box .contact__input-text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contact__form{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contact__form h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact__form .input__form{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact__form .input__form input,
+.contact__form .input__form textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact__form .input__form span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 1rem;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contact__form .input__form input:focus ~ span,
+.contact__form .input__form input:valid ~ span,
+.contact__form .input__form textarea:focus ~ span,
+.contact__form .input__form textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact__form .input__form input[type="submit"]{
+    width: 100px;
+    background: #00bcc4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}

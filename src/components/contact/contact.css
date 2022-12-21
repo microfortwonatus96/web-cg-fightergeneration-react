@@ -125,4 +125,24 @@
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+@media (max-width: 991px) {
+    .contact{
+        padding: 50px;
+    }
+
+    .contact__container{
+        flex-direction: column;
+    }
+
+    .contact__container .contact__info{
+        margin-bottom: 40px;
+    }
+
+    .contact__container .contact__info, .contact__form{
+        width: 100%;
+    }
 }

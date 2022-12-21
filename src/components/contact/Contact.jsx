@@ -30,7 +30,15 @@ const Contact = () => {
             <div className="contact__icon"><i class="fa-solid fa-envelope"></i></div>
             <div className="contact__input-text">
               <h3>Email</h3>
-              <p>cgfighter@gmail.com</p>
+              <p>cgfighterxxxxxxxxx@gmail.com</p>
+            </div>
+          </div>
+
+          <div className="contact__box">
+            <div className="contact__icon"><i class="fa-brands fa-instagram"></i></div>
+            <div className="contact__input-text">
+              <h3>Instagram</h3>
+              <p>cg.fightergeneration</p>
             </div>
           </div>
         </div>
